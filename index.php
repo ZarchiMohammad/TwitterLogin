@@ -29,7 +29,6 @@ if (isset($_REQUEST['oauth_verifier'], $_REQUEST['oauth_token']) && $_REQUEST['o
         $_SESSION['oauth_token'] = $request_token['oauth_token'];
         $_SESSION['oauth_token_secret'] = $request_token['oauth_token_secret'];
         $url = $connection->url('oauth/authorize', array('oauth_token' => $request_token['oauth_token']));
-        //echo $url;
         echo "<a href='$url'>Click to login</a>";
     } else {
         $access_token = $_SESSION['access_token'];
