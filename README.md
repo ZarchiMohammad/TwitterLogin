@@ -32,3 +32,6 @@ const CONSUMER_KEY = '*****';
 const CONSUMER_SECRET = '*****';
 ```
 <br><br>
+
+<b>Step 5:</b><br>
+- Run the code and enjoy the output :)
